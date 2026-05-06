@@ -48,3 +48,21 @@ for feat in features:
 # Find best feature
 best_feature = max(features, key=lambda f: information_gain(df, f))
 print(f"\nBest feature to split on: **{best_feature}**")
+
+# Output
+"""
+Total Entropy: 0.9403
+
+Information Gain (Outlook    ): 0.2467
+Information Gain (Temperature): 0.0292
+Information Gain (Humidity   ): 0.1518
+Information Gain (Wind       ): 0.0481
+
+Best feature to split on: Outlook
+"""
+
+
+
+
+
+
